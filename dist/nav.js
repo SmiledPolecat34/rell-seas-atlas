@@ -52,6 +52,13 @@
     build: ['build', 'rain', 'Build'], emplacements: ['build', 'rain', 'Emplacements'],
     xebec: ['build', 'rain', 'Builds'], shanks: ['build', 'rain', 'Builds'], pve: ['build', 'rain', 'Builds'],
     dossier: ['build', 'rain', 'Dossier'], resources: ['build', 'rain', 'Builds'],
+    overview: ['faction', 'calm', 'Factions'], pirates: ['faction', 'drift', 'Pirates'], marines: ['marine', 'rain', 'Marines'], prison: ['marine', 'rain', 'Prisons'], impel: ['marine', 'rain', 'Impel Down'],
+    revolution: ['combat', 'embers', 'Révolution'], government: ['gov', 'calm', 'Gouvernement'], hunters: ['forge', 'swirl', 'Primes'],
+    systems: ['sea', 'drift', 'Systèmes'],
+    metiers: ['craft', 'calm', 'Métiers'], chaine: ['craft', 'calm', 'Chaîne'], peche: ['sea', 'drift', 'Pêche'], cuisine: ['video', 'swirl', 'Cuisine'],
+    artisanat: ['forge', 'embers', 'Artisanat'], bois: ['craft', 'calm', 'Bois'], minage: ['forge', 'embers', 'Minage'], navigation: ['sea', 'drift', 'Navigation'],
+    vol: ['gov', 'calm', 'Vol'], medecin: ['fruit', 'swirl', 'Médecin'], dex: ['news', 'calm', 'Dex'], combos: ['build', 'rain', 'Choisir'], 'sources-metiers': ['news', 'calm', 'Sources'],
+    creator: ['build', 'rain', 'Créateur'], saved: ['craft', 'calm', 'Mes builds'], review: ['faction', 'swirl', 'Retour'], choisir: ['news', 'calm', 'Choisir'], verifier: ['news', 'calm', 'Sources'],
   };
   const root = document.documentElement;
   const chip = document.createElement('div');

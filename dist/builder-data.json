@@ -1,0 +1,580 @@
+{
+ "races": [
+  {
+   "fr": "Humain",
+   "en": "Human",
+   "tier": "B",
+   "subs": [
+    "Human",
+    "Dwarf",
+    "Finman Breather",
+    "Finman Swimmer",
+    "Superhuman",
+    "Orc",
+    "Elf"
+   ],
+   "note": "Human équilibré ; Dwarf esquive ; Breather respiration ; Swimmer nage ; Superhuman physique ; Orc force ; Elf perception et agilité."
+  },
+  {
+   "fr": "Trois yeux",
+   "en": "Three Eyes",
+   "tier": "A",
+   "subs": [
+    "Ogre",
+    "Elf",
+    "Dwarf",
+    "Dragon",
+    "Finman",
+    "Orc"
+   ],
+   "note": "Ogre et Orc puissance ; Elf perception ; Dwarf mobilité ; Dragon résistance ou feu ; Finman eau."
+  },
+  {
+   "fr": "Avalonien",
+   "en": "Avalonian",
+   "tier": "A",
+   "subs": [
+    "Primitive",
+    "Lowborn",
+    "Highborn",
+    "Royalty",
+    "Goddess"
+   ],
+   "note": "Noms évoquant un statut social. Aucune preuve que Goddess ou Royalty soient plus puissants."
+  },
+  {
+   "fr": "Lunaria",
+   "en": "Lunarian / Lunars",
+   "tier": "S",
+   "subs": [
+    "Lowborn",
+    "Highborn",
+    "Deity"
+   ],
+   "note": "Termes de statut. Deity n’implique pas de bonus supérieur sans preuve. Dénomination « Lunaria » à confirmer."
+  },
+  {
+   "fr": "Oni",
+   "en": "Oni",
+   "tier": "A+",
+   "subs": [
+    "Jester",
+    "Warlord",
+    "King",
+    "Queen"
+   ],
+   "note": "Jester ruse et mobilité ; Warlord combat ; King et Queen leadership ou dégâts. Les noms ne garantissent aucune statistique."
+  },
+  {
+   "fr": "Géant",
+   "en": "Giant",
+   "tier": "B+",
+   "subs": [
+    "Ogre",
+    "Dragon",
+    "Superhuman",
+    "Elf"
+   ],
+   "note": "Ogre force ; Dragon résistance ou feu ; Superhuman performance physique ; Elf précision et agilité."
+  },
+  {
+   "fr": "Cyborg",
+   "en": "Cyborg",
+   "tier": "A+",
+   "subs": [
+    "Human",
+    "Dwarf",
+    "Orc",
+    "Finman Breather",
+    "Finman Swimmer",
+    "Ogre",
+    "Elf",
+    "Superhuman",
+    "Beastman"
+   ],
+   "note": "Style cybernétique combiné à un archétype physique, aquatique ou agile. Cumul de bonus non confirmé."
+  },
+  {
+   "fr": "Homme-bête",
+   "en": "Beastman",
+   "tier": "A",
+   "subs": [
+    "Deer",
+    "Wolf",
+    "Lion",
+    "Panda",
+    "Ox",
+    "Giraffe",
+    "Cow"
+   ],
+   "note": "Deer vitesse ; Wolf traque ; Lion dégâts ; Panda défense ; Ox et Cow robustesse ; Giraffe portée. Extrapolations animales uniquement."
+  },
+  {
+   "fr": "Marinien",
+   "en": "Marinian",
+   "tier": "S",
+   "subs": [
+    "Sharkman",
+    "Octopus",
+    "Catfish",
+    "Edgejaw"
+   ],
+   "note": "Sharkman attaque et vitesse ; Octopus contrôle ; Catfish endurance ; Edgejaw morsure ou critique. Rangs non détaillés."
+  },
+  {
+   "fr": "Nain",
+   "en": "Dwarf",
+   "tier": "B+",
+   "subs": [
+    "Orc",
+    "Superhuman"
+   ],
+   "note": "Orc dégâts ; Superhuman physique et polyvalence. Aucune synergie prouvée. Ajout signalé par un joueur."
+  }
+ ],
+ "weapons": [
+  {
+   "name": "Leviathan Axe (Set-1)",
+   "family": "Leviathan",
+   "cls": "Heavy"
+  },
+  {
+   "name": "Leviathan Axe (Set-3)",
+   "family": "Leviathan",
+   "cls": "Heavy"
+  },
+  {
+   "name": "Leviathan Bazooka",
+   "family": "Leviathan",
+   "cls": "Gunsman"
+  },
+  {
+   "name": "Leviathan Bisento",
+   "family": "Leviathan",
+   "cls": "Heavy"
+  },
+  {
+   "name": "Leviathan Blunderbuss",
+   "family": "Leviathan",
+   "cls": "Gunsman"
+  },
+  {
+   "name": "Leviathan Bo Staff",
+   "family": "Leviathan",
+   "cls": "Medium"
+  },
+  {
+   "name": "Leviathan Cleaver",
+   "family": "Leviathan",
+   "cls": "Light"
+  },
+  {
+   "name": "Leviathan Cutlass",
+   "family": "Leviathan",
+   "cls": "Light"
+  },
+  {
+   "name": "Leviathan Cutlass (Set-1)",
+   "family": "Leviathan",
+   "cls": "Light"
+  },
+  {
+   "name": "Leviathan Cutlass (Set-4)",
+   "family": "Leviathan",
+   "cls": "Light"
+  },
+  {
+   "name": "Leviathan Flintlocks",
+   "family": "Leviathan",
+   "cls": "Gunsman"
+  },
+  {
+   "name": "Leviathan Great Sword",
+   "family": "Leviathan",
+   "cls": "Heavy"
+  },
+  {
+   "name": "Leviathan Katana",
+   "family": "Leviathan",
+   "cls": "Medium"
+  },
+  {
+   "name": "Leviathan Mace",
+   "family": "Leviathan",
+   "cls": "Heavy"
+  },
+  {
+   "name": "Leviathan Short Sword",
+   "family": "Leviathan",
+   "cls": "Light"
+  },
+  {
+   "name": "Leviathan Spear",
+   "family": "Leviathan",
+   "cls": "Medium"
+  },
+  {
+   "name": "Leviathan Sword",
+   "family": "Leviathan",
+   "cls": "Medium"
+  },
+  {
+   "name": "Sea Cow Chakram",
+   "family": "Sea Cow",
+   "cls": "Light"
+  },
+  {
+   "name": "Sea Cow Crossbow",
+   "family": "Sea Cow",
+   "cls": "Gunsman"
+  },
+  {
+   "name": "Sea Cow Sickle",
+   "family": "Sea Cow",
+   "cls": "Light"
+  },
+  {
+   "name": "Sea Cow Sword",
+   "family": "Sea Cow",
+   "cls": "Medium"
+  },
+  {
+   "name": "Bisento",
+   "family": "Autres",
+   "cls": "Heavy"
+  },
+  {
+   "name": "Cat Cutlass",
+   "family": "Autres",
+   "cls": "Light"
+  },
+  {
+   "name": "Cleavers",
+   "family": "Autres",
+   "cls": "Light"
+  },
+  {
+   "name": "Demon Sickle",
+   "family": "Autres",
+   "cls": "Light"
+  },
+  {
+   "name": "Dragon Sword",
+   "family": "Autres",
+   "cls": "Medium"
+  },
+  {
+   "name": "Flintlock",
+   "family": "Autres",
+   "cls": "Gunsman"
+  },
+  {
+   "name": "Golden Hook",
+   "family": "Autres",
+   "cls": "Medium"
+  },
+  {
+   "name": "Golem Spear",
+   "family": "Autres",
+   "cls": "Medium"
+  },
+  {
+   "name": "Great Axe",
+   "family": "Autres",
+   "cls": "Heavy"
+  },
+  {
+   "name": "Ignis Dagger",
+   "family": "Autres",
+   "cls": "Light"
+  },
+  {
+   "name": "Katakuri’s Trident",
+   "family": "Autres",
+   "cls": "Medium"
+  },
+  {
+   "name": "Katana",
+   "family": "Autres",
+   "cls": "Medium"
+  },
+  {
+   "name": "Sabo’s Pipe",
+   "family": "Autres",
+   "cls": "Medium"
+  },
+  {
+   "name": "Sea Trident",
+   "family": "Autres",
+   "cls": "Medium"
+  },
+  {
+   "name": "Skypiean Curved Cleaver",
+   "family": "Autres",
+   "cls": "Light"
+  },
+  {
+   "name": "Skypiean Great Sword",
+   "family": "Autres",
+   "cls": "Heavy"
+  },
+  {
+   "name": "Soul Cane",
+   "family": "Autres",
+   "cls": "Medium"
+  },
+  {
+   "name": "Soul Guitar",
+   "family": "Autres",
+   "cls": "Gunsman"
+  }
+ ],
+ "posters": {
+  "Armement": [
+   {
+    "id": "sir-galahad",
+    "name": "Sir Galahad"
+   },
+   {
+    "id": "sir-gawain",
+    "name": "Sir Gawain"
+   },
+   {
+    "id": "sir-lancelot",
+    "name": "Sir Lancelot"
+   },
+   {
+    "id": "sir-lannister",
+    "name": "Sir Lannister"
+   },
+   {
+    "id": "bri-o-tarth",
+    "name": "Bri O. Tarth"
+   },
+   {
+    "id": "sie-g-fried",
+    "name": "Sie G. Fried"
+   },
+   {
+    "id": "sir-percival",
+    "name": "Sir Percival"
+   },
+   {
+    "id": "sir-sigurd",
+    "name": "Sir Sigurd"
+   },
+   {
+    "id": "sir-stifmeister",
+    "name": "Sir Stifmeister"
+   }
+  ],
+  "Observation": [
+   {
+    "id": "opp-e-heimer",
+    "name": "Opp E. Heimer"
+   },
+   {
+    "id": "new-d-ton",
+    "name": "New D. ton"
+   },
+   {
+    "id": "ein-s-tein",
+    "name": "Ein S. Tein"
+   },
+   {
+    "id": "dar-d-win",
+    "name": "Dar D. Win"
+   },
+   {
+    "id": "sigma-freud",
+    "name": "Sigma Freud"
+   },
+   {
+    "id": "tom-e-dison",
+    "name": "Tom E. Dison"
+   },
+   {
+    "id": "kanada",
+    "name": "Kanada"
+   },
+   {
+    "id": "khwarizmi",
+    "name": "Khwarizmi"
+   },
+   {
+    "id": "raman",
+    "name": "Raman"
+   },
+   {
+    "id": "taekwondo",
+    "name": "Taekwondo"
+   },
+   {
+    "id": "jujutsu",
+    "name": "Jujutsu"
+   },
+   {
+    "id": "kanaloa",
+    "name": "Kanaloa"
+   }
+  ],
+  "Rois": [
+   {
+    "id": "xanda-d-goat",
+    "name": "Xanda D. Goat"
+   },
+   {
+    "id": "alexander-d-great",
+    "name": "Alexander D. Great"
+   },
+   {
+    "id": "julius-c-zar",
+    "name": "Julius C. Zar"
+   },
+   {
+    "id": "geng-d-khan",
+    "name": "Geng D. Khan"
+   },
+   {
+    "id": "nap-o-leon",
+    "name": "Nap O. Leon"
+   },
+   {
+    "id": "go-d-zilla",
+    "name": "Go D. Zilla"
+   },
+   {
+    "id": "hannibal",
+    "name": "Hannibal"
+   }
+  ],
+  "Agile": [
+   {
+    "id": "flash-dash",
+    "name": "Flash Dash"
+   },
+   {
+    "id": "geppo-master",
+    "name": "Geppo Master"
+   },
+   {
+    "id": "wall-bouncer",
+    "name": "Wall Bouncer"
+   },
+   {
+    "id": "ronaldo-trip",
+    "name": "Ronaldo Trip"
+   },
+   {
+    "id": "jumper",
+    "name": "Jumper"
+   },
+   {
+    "id": "mr-windstep",
+    "name": "Mr Windstep"
+   },
+   {
+    "id": "sir-pitcher",
+    "name": "Sir Pitcher"
+   },
+   {
+    "id": "strong-tilt",
+    "name": "Strong Tilt"
+   }
+  ],
+  "Fierce": [
+   {
+    "id": "alpha-crasher",
+    "name": "Alpha Crasher"
+   },
+   {
+    "id": "m1-god",
+    "name": "M1 God"
+   },
+   {
+    "id": "full-stack",
+    "name": "Full Stack"
+   },
+   {
+    "id": "faster-punch",
+    "name": "Faster Punch"
+   },
+   {
+    "id": "strong-puncher",
+    "name": "Strong Puncher"
+   },
+   {
+    "id": "down-god",
+    "name": "Down God"
+   },
+   {
+    "id": "james-bond",
+    "name": "James Bond"
+   }
+  ],
+  "Tactic": [
+   {
+    "id": "auto-parry",
+    "name": "Auto Parry"
+   },
+   {
+    "id": "parry-god",
+    "name": "Parry God"
+   },
+   {
+    "id": "quick-parry",
+    "name": "Quick Parry"
+   },
+   {
+    "id": "evade-god",
+    "name": "Evade God"
+   },
+   {
+    "id": "parryingan",
+    "name": "Parryingan"
+   }
+  ]
+ },
+ "fruits": {
+  "Logia": [
+   "Dark",
+   "Flame",
+   "Ice",
+   "Light",
+   "Magma",
+   "Rumble",
+   "Sand",
+   "Smoke"
+  ],
+  "Paramecia": [
+   "Barrier",
+   "Bomb",
+   "Chop",
+   "Dough",
+   "Gravity",
+   "Love",
+   "Operation",
+   "Paw",
+   "Quake",
+   "Revive",
+   "Rubber",
+   "Soul",
+   "String",
+   "Venom"
+  ],
+  "Zoan": [
+   "Allosaurus",
+   "Bison",
+   "Falcon",
+   "Giraffe",
+   "Leopard",
+   "Wolf"
+  ],
+  "Zoan mythique": [
+   "Buddha",
+   "Dragon",
+   "Phoenix",
+   "Mythical Wolf"
+  ]
+ }
+}

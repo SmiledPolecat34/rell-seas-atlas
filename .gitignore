@@ -1,0 +1,4 @@
+# Builds enregistrés par les utilisateurs et secrets locaux : jamais dans git.
+data/
+.env
+*.tmp

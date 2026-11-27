@@ -19,6 +19,26 @@
   let kb = [], topics = [], starters = [], ai = false, busy = false;
   const history = [];
 
+  const ICONS = {
+    door: 'M4 21V4h10v17M14 8h4v13M2 21h20M11 12v.01', flag: 'M5 21V4M5 4h11l-2.2 4L16 12H5',
+    users: 'M9 11a3 3 0 1 0 0-6 3 3 0 0 0 0 6zM3 20c0-3.3 2.7-6 6-6s6 2.7 6 6M17 11a2.5 2.5 0 1 0 0-5M16 14.2c2.9.3 5 2.6 5 5.8',
+    chart: 'M4 20V10M10 20V4M16 20v-7M22 20H2', flame: 'M12 3c1 3.5 5 5 5 10a5 5 0 0 1-10 0c0-2 1-3 2-4 .3 1.6 1 2.3 2 2.5-.6-3.5-.5-6 1-8.5z',
+    sword: 'M20 4L9 15M7 13l4 4M9 15l-4 4M20 4h-4M20 4v4', fruit: 'M12 8c-4 0-7 2.5-7 7 0 3 2.5 6 7 6s7-3 7-6c0-4.5-3-7-7-7zM12 8c0-2 1-3.5 3-4.5',
+    waves: 'M2 8c2.5 0 2.5 2 5 2s2.5-2 5-2 2.5 2 5 2 2.5-2 5-2M2 14c2.5 0 2.5 2 5 2s2.5-2 5-2 2.5 2 5 2 2.5-2 5-2',
+    wrench: 'M14.7 6.3a4 4 0 0 0-5.4 5.4L3 18l3 3 6.3-6.3a4 4 0 0 0 5.4-5.4l-2.4 2.4-2.6-.6-.6-2.6z', info: 'M12 21a9 9 0 1 0 0-18 9 9 0 0 0 0 18zM12 11v6M12 7.5v.01',
+    hammer: 'M14 5l5 5M5 19l8-8M11 4l9 9-3 3-9-9z',
+    expand: 'M14 4h6v6M10 20H4v-6M20 4l-7 7M4 20l7-7', shrink: 'M20 10h-6V4M4 14h6v6M14 10l7-7M3 21l7-7',
+  };
+  const icon = (id) => {
+    const NS = 'http://www.w3.org/2000/svg';
+    const svg = document.createElementNS(NS, 'svg');
+    ['viewBox:0 0 24 24', 'width:18', 'height:18', 'fill:none', 'stroke:currentColor', 'stroke-width:1.8', 'stroke-linecap:round', 'stroke-linejoin:round', 'aria-hidden:true']
+      .forEach((a) => { const [k, v] = a.split(':'); svg.setAttribute(k, v.includes(' ') || isNaN(v) ? v : v); });
+    const p = document.createElementNS(NS, 'path');
+    p.setAttribute('d', ICONS[id] || ICONS.info);
+    svg.append(p);
+    return svg;
+  };
   const el = (tag, cls, txt) => { const e = document.createElement(tag); if (cls) e.className = cls; if (txt != null) e.textContent = txt; return e; };
 
   /* ---------- UI ---------- */
@@ -38,7 +58,22 @@
   const close = el('button', 'chat-x', '×');
   close.type = 'button';
   close.setAttribute('aria-label', 'Fermer l’assistant');
-  head.append(title, close);
+  const grow = el('button', 'chat-x chat-grow');
+  grow.type = 'button';
+  grow.setAttribute('aria-label', 'Agrandir le chat');
+  grow.setAttribute('aria-pressed', 'false');
+  grow.append(icon('expand'));
+  grow.addEventListener('click', () => {
+    const big = panel.classList.toggle('big');
+    grow.setAttribute('aria-pressed', String(big));
+    grow.setAttribute('aria-label', big ? 'Réduire le chat' : 'Agrandir le chat');
+    grow.replaceChildren(icon(big ? 'shrink' : 'expand'));
+    settle();
+    setTimeout(settle, 380);
+  });
+  const tools = el('div', 'chat-tools');
+  tools.append(grow, close);
+  head.append(title, tools);
 
   const log = el('div', 'chat-log');
   log.setAttribute('aria-live', 'polite');
@@ -66,6 +101,11 @@
   document.body.append(fab, panel);
 
   /* ---------- Messages ---------- */
+  let anchorEl = null; /* question épinglée en haut du journal */
+  function settle() {
+    if (anchorEl && anchorEl.isConnected) log.scrollTo({ top: Math.max(0, anchorEl.offsetTop - 10), behavior: 'smooth' });
+    else log.scrollTop = log.scrollHeight;
+  }
   function bubble(who, text, link) {
     const m = el('div', 'msg ' + who);
     m.append(el('p', '', text));
@@ -75,7 +115,7 @@
       m.append(a);
     }
     log.append(m);
-    log.scrollTop = log.scrollHeight;
+    settle();
     return m;
   }
   const block = (label, entries) => {
@@ -88,7 +128,7 @@
       wrap.append(b);
     });
     log.append(wrap);
-    log.scrollTop = log.scrollHeight;
+    settle();
   };
   const topicOf = (id) => topics.find((t) => t.id === id);
   function related(entry) {
@@ -100,7 +140,7 @@
   }
   function openTopic(t) {
     if (busy) return;
-    bubble('me', t.icon + ' ' + t.label);
+    anchorEl = bubble('me', t.label);
     bubble('bot', 'Sujet « ' + t.label + ' » : que veux-tu savoir ?');
     block('', kb.filter((e) => e.t === t.id));
     input.value = '';
@@ -109,7 +149,8 @@
   function buildBar() {
     bar.textContent = '';
     topics.forEach((t) => {
-      const b = el('button', 'topic', t.icon + ' ' + t.label);
+      const b = el('button', 'topic');
+      b.append(icon(t.icon), el('span', '', t.label));
       b.type = 'button';
       b.addEventListener('click', () => openTopic(t));
       bar.append(b);
@@ -146,7 +187,7 @@
     } else {
       const nv = norm(v);
       const tt = topics.filter((t) => norm(t.label).startsWith(nv) || toks(t.k).some((w) => w.startsWith(nv)) || toks(v).some((w) => w.length > 2 && toks(t.k).includes(w)))
-        .slice(0, 2).map((t) => ({ label: t.icon + ' Sujet : ' + t.label, topic: t, fill: t.label }));
+        .slice(0, 2).map((t) => ({ label: 'Sujet : ' + t.label, topic: t, fill: t.label }));
       const qq = rank(v).filter((r) => r.s >= 0.6).slice(0, 5 - tt.length).map((r) => ({ label: r.e.q, e: r.e }));
       items = [...tt, ...qq];
     }
@@ -175,7 +216,7 @@
   async function ask(text, direct) {
     text = text.trim();
     if (!text || busy) return;
-    bubble('me', text);
+    anchorEl = bubble('me', text);
     input.value = '';
     showSugg();
     history.push({ role: 'user', content: text });
@@ -228,7 +269,8 @@
       topics.forEach((t) => {
         const b = el('button', 'tile');
         b.type = 'button';
-        b.append(el('span', 'tile-i', t.icon), el('span', 'tile-t', t.label));
+        const ic = el('span', 'tile-i'); ic.append(icon(t.icon));
+        b.append(ic, el('span', 'tile-t', t.label));
         b.addEventListener('click', () => openTopic(t));
         g.append(b);
       });
@@ -263,7 +305,7 @@
   });
 
   /* ---------- Chargement ---------- */
-  fetch('kb.json').then((r) => r.json()).then((d) => {
+  fetch('kb.json', { cache: 'no-cache' }).then((r) => r.json()).then((d) => {
     kb = d.entries.map((e) => ({ ...e, _q: norm(e.q), _w: new Set([...toks(e.k), ...toks(e.q)]) }));
     starters = d.starters || [];
     topics = d.topics || [];

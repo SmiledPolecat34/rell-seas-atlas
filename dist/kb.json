@@ -45,50 +45,50 @@
     {
       "q": "Quelles sont les factions ?",
       "k": "factions faction pirates marines chasseurs primes gouvernement mondial revolutionnaires liste",
-      "a": "Cinq factions sont relevées : Pirates, Marines, Chasseurs de primes, Gouvernement mondial et Révolutionnaires. Leur nombre diffère selon les anciennes notes et sources.",
+      "a": "Le wiki décrit quatre factions jouables : Pirates, World Seas Marine Corps, Arms of Revolution (pré-release) et World Seas Government (pré-release), plus une faction PNJ, le Council of Piracy. Le guide rellseas.org n’en cite que trois (Pirates, Marines, Chasseurs de primes) : les sources divergent.",
       "l": [
-        "index.html#factions",
-        "Comparateur de factions"
+        "factions.html#overview",
+        "Dossier des factions"
       ],
       "t": "factions"
     },
     {
       "q": "Peut-on changer de faction ?",
       "k": "changer faction quitter reputation grade equipage switch",
-      "a": "Les sources consultées ne le précisent pas : on ignore si l’on peut quitter une faction librement, si la réputation suit et si l’équipage ou les grades sont affectés.",
+      "a": "La faction se choisit au début du jeu. Le wiki dit que la possibilité de changer plus tard n’a pas été confirmée avant le lancement. Si la réputation, l’équipage ou les grades suivent reste à vérifier.",
       "l": [
-        "index.html#factions",
-        "Factions"
+        "factions.html#choisir",
+        "Aide au choix"
       ],
       "t": "factions"
     },
     {
       "q": "Que font les Pirates ?",
       "k": "pirates pirate equipage liberte navigation evenements mer",
-      "a": "Les Pirates mettent l’accent sur la navigation, les événements en mer et les affrontements entre équipages.",
+      "a": "Liberté avant tout : aucune taxe, aucun recruteur, plus de 40 crews PNJ dont les relations s’accumulent. En contrepartie, la prime fait de toi une cible des Marines et la prison te guette.",
       "l": [
-        "index.html#factions",
-        "Factions"
+        "factions.html#pirates",
+        "Dossier Pirates"
       ],
       "t": "factions"
     },
     {
       "q": "Que font les Marines ?",
       "k": "marines marine ordre justice base navale galaxy impact amiral",
-      "a": "Les Marines forment une organisation structurée centrée sur le maintien de l’ordre, avec des bases navales. Le projet évoquait aussi Galaxy Impact, dont l’exclusivité aux Marines ou aux Amiraux reste à confirmer.",
+      "a": "Ils font respecter la loi : on s’enrôle chez le Recruteur d’une base Marine (rang Recruit) et on gravit 21 rangs. Ils arrêtent les pirates, paient des taxes, et l’Admiral accède à tout Hades Asylum.",
       "l": [
-        "index.html#factions",
-        "Factions"
+        "factions.html#marines",
+        "Dossier Marines"
       ],
       "t": "factions"
     },
     {
       "q": "Que font les Chasseurs de primes ?",
       "k": "chasseurs primes chasseur prime bounty traque independant capture",
-      "a": "Voie plus indépendante, tournée vers la traque des pirates pour leurs primes et la capture de cibles.",
+      "a": "Statut contesté : rellseas.org en fait une faction indépendante qui chasse les pirates pour une prime, mais le wiki ne la liste pas. Le journal du jeu contient bien Bounty-Hunt et Grifter-Hunt avec des affiches WANTED.",
       "l": [
-        "index.html#factions",
-        "Factions"
+        "factions.html#hunters",
+        "Chasseurs de primes"
       ],
       "t": "factions"
     },
@@ -315,10 +315,10 @@
     {
       "q": "C’est quoi Hades Asylum ?",
       "k": "hades asylum prison marine six niveaux seven layers",
-      "a": "Hades Asylum est décrit comme une prison de la Marine à six niveaux et cité dans les paroles du clip Into The Seas. Le rapprochement avec le lieu fortifié du clip reste une piste.",
+      "a": "Hades Asylum est la prison de sécurité maximale de la Marine, l’Impel Down du jeu : six niveaux (dont un 5.5), chacun sur une instance séparée. Seul un Admiral circule librement par l’ascenseur ; les prisonniers s’évadent via le système Ghoul.",
       "l": [
-        "codex.html#carte",
-        "Lieux"
+        "factions.html#prison",
+        "Prison et Hades"
       ],
       "t": "mers"
     },
@@ -411,75 +411,311 @@
         "Accueil"
       ],
       "t": "site"
+    },
+    {
+      "q": "Combien de rangs chez les Marines ?",
+      "k": "marines rangs rang grades grade 21 ladder recruit cadet officer admiral hierarchie promotion",
+      "a": "Le wiki liste 21 rangs : Recruit, Cadet, Officer, Scout et Lieutenant (I à III), puis Commander, Captain, Rear-Admiral, Vice-Admiral, Admiral et Fleet Admiral. Les conditions sont non confirmées. Une autre page du wiki n’en cite que 7 : les sources divergent.",
+      "l": [
+        "factions.html#marines",
+        "Échelle des rangs"
+      ],
+      "t": "factions"
+    },
+    {
+      "q": "Comment rejoindre les Marines ?",
+      "k": "rejoindre enroler marine recruteur base recruit marines joindre",
+      "a": "Entre dans une base Marine, va au bâtiment principal et parle au Recruteur : tu es enrôlé au rang de Recruit. Une seule base, dans Wilderness, est recensée.",
+      "l": [
+        "factions.html#marines",
+        "Dossier Marines"
+      ],
+      "t": "factions"
+    },
+    {
+      "q": "Comment fonctionne la prison ?",
+      "k": "prison jail capture arrestation stocks cellule camp plateforme officer minuteur peine evader",
+      "a": "Un Officer te met à terre, un compte à rebours démarre (un timing parfait t’évite la capture). À zéro, tu passes par les stocks, la cellule, le camp Marine et la plateforme flottante. Miner réduit la peine, un ami peut te libérer.",
+      "l": [
+        "factions.html#prison",
+        "Système de prison"
+      ],
+      "t": "factions"
+    },
+    {
+      "q": "Que se passe-t-il si je frappe un civil ?",
+      "k": "civil pnj crime etoiles bleues vagues marines wanted recherche reputation frapper tuer",
+      "a": "Les PNJ alertent un Marine, puis des vagues de gardes arrivent, affichées en étoiles bleues : 3 Marines pour la vague 1, 6 pour la vague 2. Un système inspiré du Wanted de GTA.",
+      "l": [
+        "factions.html#marines",
+        "Réaction de la Marine"
+      ],
+      "t": "factions"
+    },
+    {
+      "q": "C’est quoi la réputation ?",
+      "k": "reputation barre rouge verte neutral grade crews royaume faction hostile poster apprentissage",
+      "a": "Une barre du rouge (mauvaise) au vert (bonne) sur l’écran Talent, avec un grade de F à A. Mauvaise : PNJ hostiles et Marines. Bonne : apprentissage de posters auprès des crews alliés. Crews et royaumes ont aussi la leur.",
+      "l": [
+        "factions.html#systems",
+        "Réputation"
+      ],
+      "t": "factions"
+    },
+    {
+      "q": "Comment fonctionnent les crews ?",
+      "k": "crew crews equipage creer capitaine rangs roles membres crew creator logo council piracy",
+      "a": "Le capitaine crée le crew dans le Crew Creator (nom, crâne, 3 accessoires, 4 couleurs, logo). 20 places au départ, jusqu’à 10 rangs de Captain à Deckboy. L’affiliation officielle passe par le Council of Piracy.",
+      "l": [
+        "factions.html#pirates",
+        "Ton propre crew"
+      ],
+      "t": "factions"
+    },
+    {
+      "q": "C’est quoi le Council of Piracy ?",
+      "k": "council piracy conseil piraterie crew officiel enemies list affiliation",
+      "a": "Une faction PNJ, groupe officiel géré par RELL Games. Il sert de voie de reconnaissance des crews : Enemies List et logo dans le système de crews. Ce n’est pas une faction jouable distincte.",
+      "l": [
+        "factions.html#pirates",
+        "Council of Piracy"
+      ],
+      "t": "factions"
+    },
+    {
+      "q": "Que sont les Révolutionnaires ?",
+      "k": "revolutionnaires revolution arms of revolution rebelles gouvernement dragon claw fist tenues recrutement",
+      "a": "Faction clandestine opposée au Gouvernement : démanteler l’ordre mondial et libérer les territoires. 8 tenues, pas de taxe, Dragon Claw Fist probable. Tout est pré-release.",
+      "l": [
+        "factions.html#revolution",
+        "Dossier Révolution"
+      ],
+      "t": "factions"
+    },
+    {
+      "q": "Que fait le Gouvernement mondial ?",
+      "k": "gouvernement government world seas gouvernement mondial controle corrompu rokushiki admiral",
+      "a": "Faction jouable pré-release, corrompue, au-dessus de la Marine, fondée sur le contrôle absolu. L’Admiral exige son appui. Rokushiki probable. Recrutement non révélé.",
+      "l": [
+        "factions.html#government",
+        "Dossier Gouvernement"
+      ],
+      "t": "factions"
+    },
+    {
+      "q": "Comment appeler la Marine ?",
+      "k": "appeler marine snail phone shell phone buster call report crime telephone den den mushi",
+      "a": "Avec le Snail Phone (touche R) : Report Crime envoie des Marines, Buster Call (Island Destroyer) exige le rang Admiral. Les deux partagent une recharge d’environ 120 secondes.",
+      "l": [
+        "factions.html#marines",
+        "Appeler la Marine"
+      ],
+      "t": "factions"
+    },
+    {
+      "q": "Quelle faction choisir ?",
+      "k": "choisir faction conseil meilleure quelle pirate marine liberte",
+      "a": "Pirates pour la liberté et l’équipage, Marines pour une hiérarchie claire. Révolutionnaires et Gouvernement sont pré-release : n’engage pas d’argent dessus.",
+      "l": [
+        "factions.html#choisir",
+        "Aide au choix"
+      ],
+      "t": "factions"
+    },
+    {
+      "q": "Comment fonctionne la pêche ?",
+      "k": "peche pecher canne sailor rod poisson reel minijeu nice catch leviathan dex",
+      "a": "Tu lances la ligne, tu attends une touche puis tu ramènes le poisson dans la barre avec A, D et le clic maintenu. La Sailor Rod est donnée pendant la quête de départ ; chaque prise rapporte des points selon sa rareté. 500 points max.",
+      "l": [
+        "metiers.html#peche",
+        "Dossier Pêche"
+      ],
+      "t": "metiers"
+    },
+    {
+      "q": "Comment invoquer le Leviathan Yahu ?",
+      "k": "yahu leviathan invoquer pecher peche canne leviathan navire sloop repaire",
+      "a": "On repère l’icône bleue à la longue-vue, on navigue jusqu’au repaire, puis on pêche depuis le navire avec une canne Leviathan. Après environ une minute, Yahu apparaît (barre 500/500). Prends un navire plus gros qu’un sloop. Comment obtenir la canne est non confirmé.",
+      "l": [
+        "metiers.html#peche",
+        "Pêcher un Leviathan"
+      ],
+      "t": "metiers"
+    },
+    {
+      "q": "Comment fonctionne la cuisine ?",
+      "k": "cuisine cuisiner foyer firepit four mixeur recette chef slicer plat",
+      "a": "On démarre au foyer (4 bois, 5 pierres), puis on passe à la cuisine : Fry, Bake, Boil ou Slice avec une jauge de timing, le mixeur pour les boissons et le minijeu Chef Slicer. 500 points max, Recipe Dex.",
+      "l": [
+        "metiers.html#cuisine",
+        "Dossier Cuisine"
+      ],
+      "t": "metiers"
+    },
+    {
+      "q": "Comment fonctionne l’artisanat et la forge ?",
+      "k": "artisanat crafting forge forgeron rambo blueprint assembler smelt enhance ameliorer autoplay",
+      "a": "Les recettes simples se font depuis le sac (bouton Craft). La forge de Rambo à Bayside Town demande Assemble puis Smelt, avec des minijeux. Autoplay les joue à ta place, et Enhance monte jusqu’à +20.",
+      "l": [
+        "metiers.html#artisanat",
+        "Dossier Artisanat"
+      ],
+      "t": "metiers"
+    },
+    {
+      "q": "Quels outils pour miner et couper du bois ?",
+      "k": "miner minage bois bucheron hache pioche pelle outils bronze silver gold leviathan stormstone",
+      "a": "Rambo donne la hache et la pioche pendant la quête de départ. Les paliers sont Bronze, Silver, Gold et Leviathan ; la pelle va jusqu’à Stormstone et Summonance. N’importe quel rocher donne de la pierre.",
+      "l": [
+        "metiers.html#minage",
+        "Dossier Minage"
+      ],
+      "t": "metiers"
+    },
+    {
+      "q": "Comment crocheter une serrure ?",
+      "k": "crocheter crochetage serrure lockpick voler vol discretion stealth takedown",
+      "a": "Fais glisser l’aiguille avec A et D jusqu’à ce que la serrure brille en vert. Pour la discrétion : C pour s’accroupir, puis V pour exécuter et prendre le butin. Se faire prendre baisse la réputation.",
+      "l": [
+        "metiers.html#vol",
+        "Dossier Vol"
+      ],
+      "t": "metiers"
+    },
+    {
+      "q": "Comment soigner la peste ?",
+      "k": "peste plague maladie medecin undying brew rhume grippe soigner medicine remede",
+      "a": "La peste s’attrape en combattant des boss marins ou un Leviathan sous la pluie (petite chance). Elle se soigne avec l’Undying Brew, débloqué après Medicine V dans l’arbre du médecin.",
+      "l": [
+        "metiers.html#medecin",
+        "Dossier Médecin"
+      ],
+      "t": "metiers"
+    },
+    {
+      "q": "Quels sont les 8 métiers ?",
+      "k": "metiers huit talents liste peche cuisine artisanat bois minage navigation vol medecin",
+      "a": "Pêche, cuisine, artisanat, bois, minage, navigation, vol et médecin. Chacun a un arbre de talents et jusqu’à 500 points. Ils partagent les Stat-Points avec tes stats.",
+      "l": [
+        "metiers.html#metiers",
+        "Vue d’ensemble"
+      ],
+      "t": "metiers"
+    },
+    {
+      "q": "C’est quoi l’Impel Down du jeu ?",
+      "k": "impel down hades asylum niveaux crimson wild beast starvation burning freezing kama etages",
+      "a": "Le wiki présente Hades Asylum comme l’interprétation de l’Impel Down de One Piece. Sa numérotation (niveaux 1 à 5 plus 5.5) rappelle l’œuvre, mais aucun nom d’étage n’est confirmé pour RELL Seas : le parallèle est une piste.",
+      "l": [
+        "factions.html#impel",
+        "Hades et Impel Down"
+      ],
+      "t": "factions"
+    },
+    {
+      "q": "Quels types de prison existent ?",
+      "k": "types prison paliers stocks cellule camp plateforme mine hades niveaux detention",
+      "a": "Cinq types : les stocks (place du village), la cellule, le camp Marine (on mine), la plateforme flottante gardée par deux Officer III, puis Hades Asylum. Miner réduit la peine dans les camps.",
+      "l": [
+        "factions.html#prison",
+        "Typologie des prisons"
+      ],
+      "t": "factions"
+    },
+    {
+      "q": "Comment s’évader de prison ?",
+      "k": "evader evasion prison liberer sortir ghoul sauvetage mort timing perfect menottes",
+      "a": "Selon le palier : fin de peine, mine, sauvetage par un ami, timing PERFECT avant la capture, système Ghoul à Hades, libération par un Marine corrompu. Les menottes rendent l’évasion environ 20 fois plus dure.",
+      "l": [
+        "factions.html#prison",
+        "Voies de sortie"
+      ],
+      "t": "factions"
+    },
+    {
+      "q": "Comment créer mon build sur le site ?",
+      "k": "creer build createur composer enregistrer sauvegarder stocker ia retour analyse mon build",
+      "a": "Ouvre le Créateur : choisis race, classe, traits, arme, posters et métiers. La fiche se met à jour en direct, un retour automatique donne un score de cohérence, et l’IA peut ajouter un avis si le serveur a une clé. Tes builds sont stockés sur le serveur du site, ou dans ton navigateur à défaut.",
+      "l": [
+        "builder.html",
+        "Ouvrir le Créateur"
+      ],
+      "t": "builds"
     }
   ],
   "starters": [
     "Quand sort RELL Seas ?",
     "Quelles sont les races du jeu ?",
-    "Quelle est la meilleure race ?",
-    "Quelle classe choisir pour débuter ?",
-    "Quelles armes existent ?",
-    "Quelles sont les mers ?"
+    "Comment créer mon build sur le site ?",
+    "Quels types de prison existent ?",
+    "Quels sont les 8 métiers ?",
+    "Quelles armes existent ?"
   ],
   "topics": [
     {
       "id": "acces",
       "label": "Accès et sortie",
-      "icon": "🚪",
+      "icon": "door",
       "k": "acces sortie date eac gold annonces"
     },
     {
       "id": "factions",
       "label": "Factions",
-      "icon": "⚑",
+      "icon": "flag",
       "k": "factions faction pirates marines"
     },
     {
       "id": "races",
       "label": "Races",
-      "icon": "🧬",
+      "icon": "users",
       "k": "races race sous especes personnage"
     },
     {
       "id": "stats",
       "label": "Traits, classes, métiers",
-      "icon": "📊",
+      "icon": "chart",
       "k": "stats traits classes metiers talents points styles potentials"
+    },
+    {
+      "id": "metiers",
+      "label": "Métiers",
+      "icon": "hammer",
+      "k": "metiers metier peche cuisine artisanat bois minage navigation vol medecin forge"
     },
     {
       "id": "haki",
       "label": "Haki",
-      "icon": "🔥",
+      "icon": "flame",
       "k": "haki posters slots cartes"
     },
     {
       "id": "armes",
       "label": "Armes et forge",
-      "icon": "⚔️",
+      "icon": "sword",
       "k": "armes arme forge blueprint catalogue"
     },
     {
       "id": "fruits",
       "label": "Fruits",
-      "icon": "🍎",
+      "icon": "fruit",
       "k": "fruits fruit god logia paramecia zoan"
     },
     {
       "id": "mers",
       "label": "Mers et lieux",
-      "icon": "🌊",
+      "icon": "waves",
       "k": "mers mer lieux iles carte"
     },
     {
       "id": "builds",
       "label": "Builds",
-      "icon": "🛠️",
+      "icon": "wrench",
       "k": "builds build xebec shanks dossier"
     },
     {
       "id": "site",
       "label": "Le site",
-      "icon": "ℹ️",
+      "icon": "info",
       "k": "site movie clip video officiel raccourcis"
     }
   ]

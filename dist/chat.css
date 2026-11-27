@@ -14,7 +14,7 @@
 .chat-x { width: 2rem; height: 2rem; border-radius: 50%; border: 1px solid var(--line-strong); background: #ffffff0d; color: #fff; font-size: 1.2rem; line-height: 1; cursor: pointer; }
 .chat-x:hover { border-color: var(--accent); }
 
-.chat-log { flex: 1; overflow-y: auto; padding: 1rem; display: flex; flex-direction: column; gap: .6rem; scroll-behavior: smooth; }
+.chat-log { position: relative; flex: 1; overflow-y: auto; padding: 1rem; display: flex; flex-direction: column; gap: .6rem; scroll-behavior: smooth; }
 .msg { max-width: 88%; padding: .65rem .85rem; border-radius: 16px; font-size: .88rem; line-height: 1.5; animation: msg-in .25s ease both; }
 @keyframes msg-in { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: none; } }
 .msg p { margin: 0; }
@@ -54,3 +54,18 @@
   .chat-fab { right: .9rem; bottom: .9rem; }
 }
 @media (prefers-reduced-motion: reduce) { .chat, .msg { animation: none; } .chat-log { scroll-behavior: auto; } }
+
+/* Agrandir le chat, icônes SVG, ancrage de la question */
+.chat-tools { display: flex; gap: .4rem; }
+.chat-log::after { content: ""; flex: 0 0 55%; }
+.chat { transition: width .3s cubic-bezier(.2, .8, .2, 1), height .3s cubic-bezier(.2, .8, .2, 1); }
+.chat.big { width: min(46rem, calc(100vw - 2rem)); height: min(46rem, calc(100svh - 6.5rem)); }
+.chat.big .topic-grid { grid-template-columns: repeat(3, 1fr); }
+.chat.big .msg { font-size: .94rem; max-width: 80%; }
+.topic { display: inline-flex; align-items: center; gap: .4rem; }
+.topic svg { color: var(--accent); flex: none; width: 15px; height: 15px; }
+.tile-i { display: grid; place-items: center; width: 2rem; height: 2rem; border-radius: 10px; color: var(--accent); background: color-mix(in srgb, var(--accent) 14%, #0a1226); border: 1px solid var(--line-strong); flex: none; }
+.tile-i svg { width: 18px; height: 18px; }
+.sigil svg { width: 1.9rem; height: 1.9rem; }
+@media (max-width: 520px) { .chat.big { width: auto; height: calc(100svh - 6.5rem); } }
+@media (prefers-reduced-motion: reduce) { .chat { transition: none; } }
