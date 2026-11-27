@@ -1,0 +1,486 @@
+{
+  "updated": "2026-11-27",
+  "intro": "Base de connaissances de l’Atlas RELL Seas (site de fans). Réponses prudentes : beaucoup d’infos sont des hypothèses communautaires.",
+  "entries": [
+    {
+      "q": "Quand sort RELL Seas ?",
+      "k": "sortie date release lancement ouverture quand decembre report eac mmorpg",
+      "a": "Aucune date officielle n’est confirmée. Décembre a été évoqué à la fin du Movie 3, mais les annonces consultées ne donnent pas de jour de sortie publique. Les fils de novembre discutent d’un possible report, sans preuve d’ouverture.",
+      "l": [
+        "index.html#actualites",
+        "Voir les actualités"
+      ],
+      "t": "acces"
+    },
+    {
+      "q": "C’est quoi l’EAC ?",
+      "k": "eac early access community acces anticipe test pac vagues",
+      "a": "L’EAC (Early Access Community) est un environnement distinct prévu pour les essais à grande échelle. Le récapitulatif du Q&A évoque un plafond de détention de fruits et des Marines qui traquent leurs détenteurs. Un passage de l’EAC à la PAC est envisagé selon des récapitulatifs de joueurs.",
+      "l": [
+        "index.html#acces",
+        "Accès au jeu"
+      ],
+      "t": "acces"
+    },
+    {
+      "q": "Quelle différence entre EAC et MMORPG ?",
+      "k": "difference eac mmorpg environnement fruits rares plafond detention",
+      "a": "L’EAC sert aux tests à grande échelle, avec un plafond de détention de fruits. Le MMORPG est l’expérience principale destinée au public, où les fruits sont décrits comme rares, sans ce plafond ni la traque spécifique de l’EAC. Les modalités peuvent évoluer.",
+      "l": [
+        "index.html#acces",
+        "Accès au jeu"
+      ],
+      "t": "acces"
+    },
+    {
+      "q": "Un mois de Gold suffit-il pour l’accès ?",
+      "k": "gold silver abonnement rang acces ticket mois suffit roblox cc",
+      "a": "Le Q&A cite les rangs Silver+ et Gold+ pour les tests EAC, et Gold reprend les avantages Silver. La durée des droits après expiration et la prise en compte d’un ancien abonnement restent à vérifier dans le Discord officiel. Les anciens abonnés sans rôle sont invités à ouvrir un ticket.",
+      "l": [
+        "index.html#acces",
+        "Accès au jeu"
+      ],
+      "t": "acces"
+    },
+    {
+      "q": "Quelles sont les factions ?",
+      "k": "factions faction pirates marines chasseurs primes gouvernement mondial revolutionnaires liste",
+      "a": "Cinq factions sont relevées : Pirates, Marines, Chasseurs de primes, Gouvernement mondial et Révolutionnaires. Leur nombre diffère selon les anciennes notes et sources.",
+      "l": [
+        "index.html#factions",
+        "Comparateur de factions"
+      ],
+      "t": "factions"
+    },
+    {
+      "q": "Peut-on changer de faction ?",
+      "k": "changer faction quitter reputation grade equipage switch",
+      "a": "Les sources consultées ne le précisent pas : on ignore si l’on peut quitter une faction librement, si la réputation suit et si l’équipage ou les grades sont affectés.",
+      "l": [
+        "index.html#factions",
+        "Factions"
+      ],
+      "t": "factions"
+    },
+    {
+      "q": "Que font les Pirates ?",
+      "k": "pirates pirate equipage liberte navigation evenements mer",
+      "a": "Les Pirates mettent l’accent sur la navigation, les événements en mer et les affrontements entre équipages.",
+      "l": [
+        "index.html#factions",
+        "Factions"
+      ],
+      "t": "factions"
+    },
+    {
+      "q": "Que font les Marines ?",
+      "k": "marines marine ordre justice base navale galaxy impact amiral",
+      "a": "Les Marines forment une organisation structurée centrée sur le maintien de l’ordre, avec des bases navales. Le projet évoquait aussi Galaxy Impact, dont l’exclusivité aux Marines ou aux Amiraux reste à confirmer.",
+      "l": [
+        "index.html#factions",
+        "Factions"
+      ],
+      "t": "factions"
+    },
+    {
+      "q": "Que font les Chasseurs de primes ?",
+      "k": "chasseurs primes chasseur prime bounty traque independant capture",
+      "a": "Voie plus indépendante, tournée vers la traque des pirates pour leurs primes et la capture de cibles.",
+      "l": [
+        "index.html#factions",
+        "Factions"
+      ],
+      "t": "factions"
+    },
+    {
+      "q": "Quelles sont les races du jeu ?",
+      "k": "races race liste personnage creer creation humain oni geant cyborg nain marinien",
+      "a": "Dix races principales sont recensées : Human, Three Eyes, Avalonian, Lunarian (Lunars), Oni, Giant, Cyborg, Beastman, Marinian et Dwarf. Compilation communautaire non officielle : noms et rattachements sont à revérifier.",
+      "l": [
+        "codex.html#creation",
+        "Races du codex"
+      ],
+      "t": "races"
+    },
+    {
+      "q": "C’est quoi les sous-espèces ?",
+      "k": "sous espece sous race sous-race variantes elf orc finman superhuman subspecies",
+      "a": "Chaque race a des variantes rapportées : par exemple Human (Dwarf, Finman Breather/Swimmer, Superhuman, Orc, Elf), Oni (Jester, Warlord, King, Queen), Marinian (Sharkman, Octopus, Catfish, Edgejaw) ou Avalonian (Primitive à Goddess). Elles pourraient être purement cosmétiques.",
+      "l": [
+        "codex.html#creation",
+        "Toutes les sous-espèces"
+      ],
+      "t": "races"
+    },
+    {
+      "q": "Quelle est la meilleure race ?",
+      "k": "meilleure race best tier list classement top fort puissant lunarian marinian",
+      "a": "Aucun meilleur choix objectif n’est établi. Dans le scénario théorique où les passifs existent, Lunarian et Marinian sont classés S, puis Cyborg et Oni A+. Si les races sont cosmétiques, elles sont toutes à égalité. Ne dépense pas de Robux sur ces classements.",
+      "l": [
+        "codex.html#creation",
+        "Tier list des races"
+      ],
+      "t": "races"
+    },
+    {
+      "q": "Quelles sont les probabilités des races ?",
+      "k": "probabilites probabilite taux pourcentage chance tirage randomize human avalonian three eyes",
+      "a": "Taux relevés dans le menu de démonstration : Human 24,68 %, Avalonian 24,67 %, Three Eyes 5 %. Les autres sont inconnus. Pour Human : Human 81,04 %, Dwarf 8,11 %, Finman 3,24 % chacun, Superhuman 1,62 %, Orc 1,08 %, Elf 0,81 % (somme incomplète).",
+      "l": [
+        "codex.html#creation",
+        "Probabilités"
+      ],
+      "t": "races"
+    },
+    {
+      "q": "Les races ont-elles des bonus ?",
+      "k": "bonus race passif racial avantage stats cosmetique effet",
+      "a": "Aucun bonus racial n’est confirmé. Les bonus du site (résistance Lunarian, nage Marinian, etc.) sont des prédictions de game design à partir de One Piece. Il faut vérifier si les races ont des passifs réels ou seulement un effet visuel.",
+      "l": [
+        "codex.html#creation",
+        "Bonus supposés"
+      ],
+      "t": "races"
+    },
+    {
+      "q": "Quels sont les Main Traits ?",
+      "k": "main traits trait stats statistiques health endurance defense spiritual will power luck",
+      "a": "Six Main Traits sont confirmés par la capture du Movie 3 : Health, Endurance, Defense, Spiritual, Will-Power et Luck. Leurs effets précis ne sont pas confirmés, et les six ne peuvent pas être maxées ensemble.",
+      "l": [
+        "codex.html#constellation",
+        "Traits, classes et métiers"
+      ],
+      "t": "stats"
+    },
+    {
+      "q": "À quoi sert Luck ?",
+      "k": "luck chance loot critique critiques drop utile",
+      "a": "On ne sait pas encore : elle pourrait influencer le loot, les critiques ou les tirages. Aucune affinité raciale n’est fondée. Le site conseille de ne pas investir massivement avant d’en connaître l’effet.",
+      "l": [
+        "codex.html#constellation",
+        "Main Traits"
+      ],
+      "t": "stats"
+    },
+    {
+      "q": "Quelles sont les Main Classes ?",
+      "k": "main classes classe light medium heavy gunsman arme legere lourde moyenne tireur",
+      "a": "Quatre classes : Light (rapide, mobile), Medium (équilibrée), Heavy (gros impacts, garde) et Gunsman (distance). Medium est partiellement masqué sur la capture.",
+      "l": [
+        "codex.html#armes",
+        "Armes et classes"
+      ],
+      "t": "stats"
+    },
+    {
+      "q": "Quelle classe choisir pour débuter ?",
+      "k": "debuter debutant commencer classe conseil premier choisir medium",
+      "a": "Choix prudent sans données de gameplay : Medium avec Health et Endurance. Light + Endurance si tu aimes la mobilité, Heavy + Health/Defense pour le corps-à-corps, Gunsman seulement si tu préfères jouer à distance.",
+      "l": [
+        "builds.html#dossier",
+        "Dossier de builds"
+      ],
+      "t": "stats"
+    },
+    {
+      "q": "Quels sont les métiers ?",
+      "k": "metiers metier talents talent peche cuisine artisanat bois minage navigation vol medecin crafting fishing cooking",
+      "a": "Huit métiers sont recensés : Fishing, Cooking, Crafting, Woodcutting, Mining, Navigation, Thieving et Doctor. Cinq rangs par métier selon le wiki, avec nœuds d’outils et carte de maîtrise en fin de branche.",
+      "l": [
+        "codex.html#constellation",
+        "Talents et métiers"
+      ],
+      "t": "stats"
+    },
+    {
+      "q": "Combien de Stat-Points a-t-on ?",
+      "k": "stat points statpoints points 620 plafond maximum partages repartition",
+      "a": "La capture affiche 620 Stat-Points restants, ce qui ne prouve ni le total ni un plafond. Stats et nœuds de métiers partagent les Stat-Points ; les coûts de Haki restent incomplets.",
+      "l": [
+        "builds.html#dossier",
+        "Répartition des Stat-Points"
+      ],
+      "t": "stats"
+    },
+    {
+      "q": "Quels sont les types de Haki ?",
+      "k": "haki types armement armament observation conqueror rois conquerant familles",
+      "a": "Trois familles : Armement (posture et mêlée), Observation (lecture de l’adversaire et esquive) et Haki des Rois / Conqueror (infusion et contrôle). Les effets chiffrés viennent souvent d’anciennes versions.",
+      "l": [
+        "codex.html#haki",
+        "Haki et slots"
+      ],
+      "t": "haki"
+    },
+    {
+      "q": "Combien de slots de Haki ou de posters ?",
+      "k": "slots slot emplacements poster posters spiritual quatre six r t g z storage",
+      "a": "Le Movie 3 montre quatre emplacements Spiritual visibles (R, T, G et Z). Le Movie 2 en décrivait six : le plafond n’est donc pas confirmé. Max-Potential a aussi quatre cases : Fierce, Tactic, Agile et Extra (Title).",
+      "l": [
+        "codex.html#haki",
+        "Haki et slots"
+      ],
+      "t": "haki"
+    },
+    {
+      "q": "Quels sont les meilleurs posters ?",
+      "k": "meilleurs posters meilleur poster godkilla gawain lancelot alexander top pvp cartes",
+      "a": "Top PvP théorique : Godkilla (contrôle), Sir Gawain (+20 % de durabilité de posture, visible Movie 3), Sir Lancelot (posture et combos) et Alexander D. Great (infusion). Aucun classement final sans cooldowns, coûts et règles de cumul.",
+      "l": [
+        "codex.html#posters",
+        "Cartes et posters"
+      ],
+      "t": "haki"
+    },
+    {
+      "q": "Quelles armes existent ?",
+      "k": "armes arme catalogue leviathan sea cow katana liste combien 39 weapons",
+      "a": "Le catalogue communautaire recense 39 entrées : 17 Leviathan, 4 Sea Cow et 18 autres (Katana, Bisento, Soul Cane, Soul Guitar, Dragon Sword, Sabo’s Pipe…). Toutes ne seront pas forcément jouables à la sortie.",
+      "l": [
+        "codex.html#armes",
+        "Armes et forge"
+      ],
+      "t": "armes"
+    },
+    {
+      "q": "C’est quoi un blueprint ?",
+      "k": "blueprint blueprints plan plans recette craft fabriquer 23",
+      "a": "Un blueprint est une recette ou un objet de connaissance, pas une arme possédée. 23 plans sont rapportés (Yahu Greatsword, Auroran, Badar, Kudan, Mossando, Necrofin, Shark Saw…). Ne pas additionner 39 armes et 23 plans.",
+      "l": [
+        "codex.html#armes",
+        "Blueprints"
+      ],
+      "t": "armes"
+    },
+    {
+      "q": "Comment fonctionne la forge ?",
+      "k": "forge forger fabrication yahu greatsword moulage refroidissement martelage aiguisage amelioration",
+      "a": "La démo de forge du Yahu Greatsword décrit moulage, refroidissement, martelage au timing et aiguisage. Les fiches annoncent des améliorations jusqu’à +20, sans garantie universelle. Mining et Crafting semblent les métiers les plus utiles.",
+      "l": [
+        "codex.html#armes",
+        "Fabrication"
+      ],
+      "t": "armes"
+    },
+    {
+      "q": "C’est quoi le weapon bond ?",
+      "k": "weapon bond affinite arme exp experience bonus creation",
+      "a": "Selon des guides communautaires, on choisirait à la création une affinité durable avec une classe d’armes, qui donne un bonus d’expérience d’arme. Permanence et valeur non vérifiées ; ce n’est pas un bonus de dégâts.",
+      "l": [
+        "codex.html#armes",
+        "Classes d’armes"
+      ],
+      "t": "armes"
+    },
+    {
+      "q": "Combien y a-t-il de fruits ?",
+      "k": "fruits fruit god fruits demon combien 32 logia paramecia zoan mythique familles",
+      "a": "Le catalogue recense 32 God Fruits répartis en Logia, Paramecia, Zoan et Zoan mythique. Les probabilités et règles d’éveil restent à confirmer.",
+      "l": [
+        "codex.html#god-fruits",
+        "Catalogue des fruits"
+      ],
+      "t": "fruits"
+    },
+    {
+      "q": "Quelles sont les mers ?",
+      "k": "mers mer sea seas liste sept forestis motley shrouded desolate sunken molten uncharted",
+      "a": "Sept noms de mer figurent dans le menu : Forestis, Motley, Shrouded, Desolate, Sunken, Molten et Uncharted. L’ordre et le contenu ne sont pas confirmés ; Uncharted pourrait être une zone spéciale.",
+      "l": [
+        "codex.html#carte",
+        "Mers, îles et lieux"
+      ],
+      "t": "mers"
+    },
+    {
+      "q": "Que signifient les noms des mers ?",
+      "k": "noms mers theorie signification etymologie forestis foret motley hetero shrouded voilee molten fusion",
+      "a": "Interprétation personnelle, non confirmée : Forestis (forêts), Motley (composite, commerce), Shrouded (voilée, brume), Desolate (dévastée), Sunken (engloutie), Molten (volcans) et Uncharted (non cartographiée).",
+      "l": [
+        "codex.html#carte",
+        "Théorie des mers"
+      ],
+      "t": "mers"
+    },
+    {
+      "q": "Où commence l’aventure ?",
+      "k": "debut depart tutoriel dead man land bayside town port demarrer premier lieu",
+      "a": "Le parcours décrit commence à Dead Man’s Land, une plage jonchée d’épaves, puis mène à Bayside Town, le port de départ avec forge, clinique, auberge et vendeur de bateaux.",
+      "l": [
+        "codex.html#carte",
+        "Lieux à retrouver"
+      ],
+      "t": "mers"
+    },
+    {
+      "q": "C’est quoi Hades Asylum ?",
+      "k": "hades asylum prison marine six niveaux seven layers",
+      "a": "Hades Asylum est décrit comme une prison de la Marine à six niveaux et cité dans les paroles du clip Into The Seas. Le rapprochement avec le lieu fortifié du clip reste une piste.",
+      "l": [
+        "codex.html#carte",
+        "Lieux"
+      ],
+      "t": "mers"
+    },
+    {
+      "q": "C’est quoi les Combat Potentials ?",
+      "k": "combat potentials potential max agile fierce tactic extra title cases",
+      "a": "Max-Potential propose quatre cases : Agile (mobilité), Fierce (attaque), Tactic (défense) et Extra, qui affiche « Title ». Un slot par catégorie selon le wiki.",
+      "l": [
+        "codex.html#posters",
+        "Posters par famille"
+      ],
+      "t": "stats"
+    },
+    {
+      "q": "Quels styles de combat existent ?",
+      "k": "styles style combat black leg dragon claw fist rokushiki electro karate hommes poissons melee",
+      "a": "Styles documentés : Électro (Mink), karaté des hommes-poissons, Black Leg, Dragon Claw Fist et Rokushiki. L’accès libre n’est pas prouvé.",
+      "l": [
+        "index.html#combat",
+        "Combat"
+      ],
+      "t": "stats"
+    },
+    {
+      "q": "Quels builds proposez-vous ?",
+      "k": "builds build xebec shanks avant garde pve pvp capitaine configuration",
+      "a": "Trois builds détaillés : Capitaine Xebec (PvP en équipage), Sabreur Shanks (duel) et Avant-garde (PvE/boss). Un dossier ajoute 200 variantes : 20 archétypes déclinés pour 10 races.",
+      "l": [
+        "builds.html",
+        "Page des builds"
+      ],
+      "t": "builds"
+    },
+    {
+      "q": "Combien de builds dans le dossier ?",
+      "k": "dossier 200 builds configurations fascicules archetypes combien",
+      "a": "200 configurations en 10 fascicules de 20 (un par race), issues de 20 archétypes : 8 PvP, 4 PvE, 3 exploration, 2 naval et 3 économie/équipage. Ce sont des variantes théoriques, pas 200 synergies confirmées.",
+      "l": [
+        "builds.html#dossier",
+        "Dossier de builds"
+      ],
+      "t": "builds"
+    },
+    {
+      "q": "Que contient le Movie 3 ?",
+      "k": "movie 3 showcase video presentation youtube octobre rell games",
+      "a": "The Movie 3 est le showcase de RELLGames publié en octobre 2026. Il montre les menus (races, Spiritual, Max-Potential), des armes, des mers et des extraits de combat. Les présentations détaillées se poursuivent sur CaribBros.",
+      "l": [
+        "codex.html#medias",
+        "Vidéos et extraits"
+      ],
+      "t": "site"
+    },
+    {
+      "q": "C’est quoi Into The Seas ?",
+      "k": "into the seas clip video musique equipage motley sunken",
+      "a": "Un clip de RELLGames qui met en scène la naissance d’un équipage et montre les cartes de Motley Sea et Sunken Sea. Le découpage scène par scène est sur la page d’accueil.",
+      "l": [
+        "index.html#archives",
+        "Analyse du clip"
+      ],
+      "t": "site"
+    },
+    {
+      "q": "Où suivre les annonces officielles ?",
+      "k": "discord youtube roblox reddit annonces officiel suivre liens communaute groupe",
+      "a": "Via la chaîne YouTube de RELLGames, le groupe Roblox RELL Seas et les Discord RELL Games / RELL Seas. Le wiki communautaire et r/RELLseas servent à retrouver des détails.",
+      "l": [
+        "index.html#exploration",
+        "Suivre RELL Seas"
+      ],
+      "t": "acces"
+    },
+    {
+      "q": "Ce site est-il officiel ?",
+      "k": "officiel site fans independant fan qui source fiable confiance",
+      "a": "Non : c’est un site de fans indépendant. Beaucoup d’informations viennent de compilations communautaires et sont marquées comme hypothèses ou non confirmées.",
+      "l": [
+        "index.html",
+        "Accueil"
+      ],
+      "t": "site"
+    },
+    {
+      "q": "Quels raccourcis clavier ?",
+      "k": "raccourcis clavier touches navigation j k aide shortcuts",
+      "a": "J / K passent à la section suivante ou précédente, Début / Fin vont en haut ou en bas, 1 à 9 ouvrent une section, / lance la recherche du codex, ? affiche l’aide. C ouvre ce chat, Échap le ferme.",
+      "l": [
+        "index.html",
+        "Accueil"
+      ],
+      "t": "site"
+    }
+  ],
+  "starters": [
+    "Quand sort RELL Seas ?",
+    "Quelles sont les races du jeu ?",
+    "Quelle est la meilleure race ?",
+    "Quelle classe choisir pour débuter ?",
+    "Quelles armes existent ?",
+    "Quelles sont les mers ?"
+  ],
+  "topics": [
+    {
+      "id": "acces",
+      "label": "Accès et sortie",
+      "icon": "🚪",
+      "k": "acces sortie date eac gold annonces"
+    },
+    {
+      "id": "factions",
+      "label": "Factions",
+      "icon": "⚑",
+      "k": "factions faction pirates marines"
+    },
+    {
+      "id": "races",
+      "label": "Races",
+      "icon": "🧬",
+      "k": "races race sous especes personnage"
+    },
+    {
+      "id": "stats",
+      "label": "Traits, classes, métiers",
+      "icon": "📊",
+      "k": "stats traits classes metiers talents points styles potentials"
+    },
+    {
+      "id": "haki",
+      "label": "Haki",
+      "icon": "🔥",
+      "k": "haki posters slots cartes"
+    },
+    {
+      "id": "armes",
+      "label": "Armes et forge",
+      "icon": "⚔️",
+      "k": "armes arme forge blueprint catalogue"
+    },
+    {
+      "id": "fruits",
+      "label": "Fruits",
+      "icon": "🍎",
+      "k": "fruits fruit god logia paramecia zoan"
+    },
+    {
+      "id": "mers",
+      "label": "Mers et lieux",
+      "icon": "🌊",
+      "k": "mers mer lieux iles carte"
+    },
+    {
+      "id": "builds",
+      "label": "Builds",
+      "icon": "🛠️",
+      "k": "builds build xebec shanks dossier"
+    },
+    {
+      "id": "site",
+      "label": "Le site",
+      "icon": "ℹ️",
+      "k": "site movie clip video officiel raccourcis"
+    }
+  ]
+}
