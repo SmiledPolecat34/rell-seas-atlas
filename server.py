@@ -24,6 +24,8 @@ DIST = ROOT / "dist"
 DATA = ROOT / "data"
 BUILDS = DATA / "builds.json"
 PORT = int(os.environ.get("PORT", "8000"))
+# En hébergement (Render définit PORT), il faut écouter sur toutes les interfaces.
+HOST = os.environ.get("HOST") or ("0.0.0.0" if "PORT" in os.environ else "127.0.0.1")
 MODEL = os.environ.get("GROQ_MODEL", "llama-3.3-70b-versatile")
 API = "https://api.groq.com/openai/v1/chat/completions"
 MAX_BODY = 20_000
@@ -206,7 +208,7 @@ class Handler(SimpleHTTPRequestHandler):
 
 
 if __name__ == "__main__":
-    server = ThreadingHTTPServer(("127.0.0.1", PORT), partial(Handler, directory=str(DIST)))
+    server = ThreadingHTTPServer((HOST, PORT), partial(Handler, directory=str(DIST)))
     mode = "IA activée" if os.environ.get("GROQ_API_KEY") else "réponses préfaites seulement (GROQ_API_KEY absente)"
     print(f"http://localhost:{PORT}  ·  {mode}  ·  builds : {BUILDS}")
     server.serve_forever()
