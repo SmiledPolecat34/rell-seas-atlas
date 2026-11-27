@@ -1,0 +1,84 @@
+@font-face {
+  font-family: Geist;
+  src: url("fonts/geist.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Space Grotesk";
+  src: url("fonts/space-grotesk.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 300 700;
+  font-display: swap;
+}
+
+:root {
+  --bg: #070910;
+  --ink: #f5f6fb;
+  --muted: #b0b7c9;
+  --panel: #121824e8;
+  --line: #8594c637;
+  --gold: #d3ccff;
+  --cyan: #b5ccf1;
+  --display: "Space Grotesk", Geist, system-ui, sans-serif;
+}
+
+body {
+  isolation: isolate;
+  font-family: Geist, system-ui, sans-serif;
+  background: var(--bg);
+}
+
+.night-sky {
+  position: fixed;
+  z-index: -1;
+  inset: 0;
+  overflow: hidden;
+  pointer-events: none;
+  background:
+    radial-gradient(ellipse at 79% 19%, #29234a90, transparent 60%),
+    radial-gradient(ellipse at 14% 85%, #16294e79, transparent 58%),
+    var(--bg);
+}
+.night-sky i {
+  position: absolute;
+  inset: -5rem;
+  background-repeat: repeat;
+  background-size: 880px 880px;
+  animation: star-drift 42s ease-in-out infinite alternate;
+}
+.night-sky i:nth-child(1) { background-image: url("visuals/stars-1.webp"); opacity: .8; }
+.night-sky i:nth-child(2) { background-image: url("visuals/stars-2.webp"); animation-duration: 29s; animation-direction: alternate-reverse; }
+.night-sky i:nth-child(3) { background-image: url("visuals/stars-3.webp"); animation: star-drift 35s ease-in-out infinite alternate, star-shimmer 8s ease-in-out infinite alternate; }
+@keyframes star-drift { to { transform: translate3d(-36px, 44px, 0); } }
+@keyframes star-shimmer { from { opacity: .55; } to { opacity: 1; } }
+
+.top { background: #0a0d16cb; }
+.hero, .codex-hero {
+  background: linear-gradient(90deg, #070910a8, transparent 74%);
+}
+.hero h1, .codex-hero h1 { font-weight: 700; letter-spacing: -.085em; line-height: .96; }
+.hero em { color: #d8d0ff; }
+.subtitle { color: #edf0ff; margin-top: .55rem; font-weight: 500; }
+.label { font: 650 .78rem Geist, sans-serif; letter-spacing: .13em; }
+.brand small { font-family: Geist, sans-serif; }
+.band, .detail { background: #0d1221bc; }
+.outline, .codex-nav a { background: #151b2add; }
+.button { color: #141128; }
+.button:hover { background: #eeeaff; color: #141128; }
+.factions button[aria-pressed=true], .factions button:hover { background: #25243ae8; border-color: #aaa0e9; }
+.entry:hover, .entry[open] { background: #1b2034f2; border-color: #8580b8; }
+.build { border-top-color: #9aa8ed90; }
+.poster-trigger, .poster-close { background: #20283d; border-color: #566080; }
+.poster-trigger:hover, .poster-close:hover { background: #30304e; }
+.poster-dialog { background: #151929; border-color: #8387bd; }
+.poster-art { background: #0d1120; }
+@media (max-width: 620px) {
+  .hero, .codex-hero { background: linear-gradient(90deg, #070910a0, #07091025); }
+  .night-sky i { background-size: 670px 670px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .night-sky i { animation: none; }
+}
