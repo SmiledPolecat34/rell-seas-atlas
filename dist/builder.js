@@ -176,7 +176,7 @@
     if (filled < 4) add(tips, `${4 - filled} slot(s) Spiritual vide(s) : le Movie 3 en montre quatre (le plafond n’est pas confirmé).`, -2 * (4 - filled));
     const dup = pos.filter((p, i) => pos.indexOf(p) !== i); if (dup.length) add(risk, 'Poster en double : le même poster ne devrait pas occuper deux slots.', -4);
     const strong = pos.filter((p) => STRONG.includes(p)); if (strong.length) add(ok, `Posters à l’effet lisible sur les captures : ${strong.join(', ')}.`, Math.min(6, strong.length * 2));
-    if (!s.agile || !s.fierce || !s.tactic) add(tips, 'Complète les trois potentiels Max-Potential (Agile, Fierce, Tactic) ; la quatrième case est « Title ».', -3);
+    if (!s.agile || !s.fierce || !s.tactic) add(tips, 'Complète les trois potentiels Max-Potential (Agile, Fierce, Tactic) ; la case Extra ajoute un potentiel de plus (Agile, Fierce ou Tactic).', -3);
 
     if (race) {
       if (['S', 'S+', 'A+'].includes(race.tier)) add(ok, `Race ${s.race} : tier théorique ${race.tier}, mais aucun passif racial n’est confirmé.`, 2);

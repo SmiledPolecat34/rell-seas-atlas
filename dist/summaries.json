@@ -1,0 +1,502 @@
+{
+"cards": {
+"Sir Galahad": {
+"id": "sir-galahad",
+"fam": "Armement",
+"img": "visuals/cartes-sir-galahad.webp",
+"status": "Ancienne démo et wiki",
+"sum": "Après un uptilt, le coup de pied aérien est remplacé par un direct chargé de Haki."
+},
+"Sir Gawain": {
+"id": "sir-gawain",
+"fam": "Armement",
+"img": "visuals/cartes-sir-gawain.webp",
+"status": "Ancienne démo et wiki",
+"sum": "Augmente la résistance de posture de 20 % dans la démo."
+},
+"Sir Lancelot": {
+"id": "sir-lancelot",
+"fam": "Armement",
+"img": "visuals/cartes-sir-lancelot.webp",
+"status": "Ancienne démo et wiki",
+"sum": "Élargit la zone du downslam, augmente les dégâts de posture et projette la cible plus haut."
+},
+"Sir Lannister": {
+"id": "sir-lannister",
+"fam": "Armement",
+"img": "visuals/cartes-sir-lannister.webp",
+"status": "Ancienne démo",
+"sum": "Bonus de dégâts de combat de 4 % dans la version montrée."
+},
+"Bri O. Tarth": {
+"id": "bri-o-tarth",
+"fam": "Armement",
+"img": "visuals/cartes-bri-o-tarth.webp",
+"status": "Ancienne démo",
+"sum": "Repousse l’attaquant qui brise ta garde avec un coup physique."
+},
+"Sie G. Fried": {
+"id": "sie-g-fried",
+"fam": "Armement",
+"img": "visuals/cartes-sie-g-fried.webp",
+"status": "Ancienne démo",
+"sum": "Le troisième coup lourd déclenche une onde qui repousse. Le rapprochement avec Sir Sigurd reste à vérifier."
+},
+"Sir Percival": {
+"id": "sir-percival",
+"fam": "Armement",
+"img": "visuals/cartes-sir-percival.webp",
+"status": "Nom recensé",
+"sum": "Effet et obtention inconnus."
+},
+"Sir Sigurd": {
+"id": "sir-sigurd",
+"fam": "Armement",
+"img": "visuals/cartes-sir-sigurd.webp",
+"status": "Nom recensé",
+"sum": "Effet propre inconnu. Les notes du projet évoquent un lien possible avec Sie G."
+},
+"Sir Stifmeister": {
+"id": "sir-stifmeister",
+"fam": "Armement",
+"img": "visuals/cartes-sir-stifmeister.webp",
+"status": "Nom recensé",
+"sum": "Effet inconnu. Le rapprochement avec Ryuo reste une hypothèse du projet."
+},
+"Opp E. Heimer": {
+"id": "opp-e-heimer",
+"fam": "Observation",
+"img": "visuals/cartes-opp-e-heimer.webp",
+"status": "Ancienne démo et wiki",
+"sum": "Future Sight accorde jusqu’à huit esquives dans la démonstration."
+},
+"New D. ton": {
+"id": "new-d-ton",
+"fam": "Observation",
+"img": "visuals/cartes-new-d-ton.webp",
+"status": "Ancienne démo et wiki",
+"sum": "Un repère apparaît avant la dernière attaque de base. La fiche invite à frapper à la fin de l’effet."
+},
+"Ein S. Tein": {
+"id": "ein-s-tein",
+"fam": "Observation",
+"img": "visuals/cartes-ein-s-tein.webp",
+"status": "Ancienne démo et wiki",
+"sum": "Évalue la force de l’adversaire. L’ancienne présentation affiche certains attributs et jauges."
+},
+"Dar D. Win": {
+"id": "dar-d-win",
+"fam": "Observation",
+"img": "visuals/cartes-dar-d-win.webp",
+"status": "Ancienne démo et wiki",
+"sum": "Détecte la présence ou la position des adversaires."
+},
+"Sigma Freud": {
+"id": "sigma-freud",
+"fam": "Observation",
+"img": "visuals/cartes-sigma-freud.webp",
+"status": "Ancienne démo",
+"sum": "Allonge de 20 % la fenêtre d’esquive des dashs et des evades dans la version présentée."
+},
+"Tom E. Dison": {
+"id": "tom-e-dison",
+"fam": "Observation",
+"img": "visuals/cartes-tom-e-dison.webp",
+"status": "Ancienne démo",
+"sum": "Transforme l’evade en contre avec saisie et coup de poing. Un effet proche est attribué à Raman par le wiki récent."
+},
+"Kanada": {
+"id": "kanada",
+"fam": "Observation",
+"img": "visuals/cartes-kanada.webp",
+"status": "Wiki post-Movie 3",
+"sum": "Permet de jauger la force adverse. Effet proche d’Ein S."
+},
+"Khwarizmi": {
+"id": "khwarizmi",
+"fam": "Observation",
+"img": "visuals/cartes-khwarizmi.webp",
+"status": "Wiki post-Movie 3",
+"sum": "Détecte la présence des adversaires. Effet proche de Dar D."
+},
+"Raman": {
+"id": "raman",
+"fam": "Observation",
+"img": "visuals/cartes-raman.webp",
+"status": "Wiki post-Movie 3",
+"sum": "Change l’esquive en contre avec saisie, coup et projection."
+},
+"Taekwondo": {
+"id": "taekwondo",
+"fam": "Observation",
+"img": "visuals/cartes-taekwondo.webp",
+"status": "Wiki post-Movie 3",
+"sum": "La garde permet d’éviter des attaques en consommant de l’endurance."
+},
+"Jujutsu": {
+"id": "jujutsu",
+"fam": "Observation",
+"img": "visuals/cartes-jujutsu.webp",
+"status": "Nom recensé",
+"sum": "Effet et obtention inconnus."
+},
+"Kanaloa": {
+"id": "kanaloa",
+"fam": "Observation",
+"img": "visuals/cartes-kanaloa.webp",
+"status": "Nom recensé",
+"sum": "Effet et obtention inconnus."
+},
+"Xanda D. Goat": {
+"id": "xanda-d-goat",
+"fam": "Rois",
+"img": "visuals/cartes-xanda-d-goat.webp",
+"status": "Ancienne démo",
+"sum": "Insuffle le Haki des Rois dans les attaques. Le wiki récent donne un effet proche à Alexander D."
+},
+"Alexander D. Great": {
+"id": "alexander-d-great",
+"fam": "Rois",
+"img": "visuals/cartes-alexander-d-great.webp",
+"status": "Wiki post-Movie 3",
+"sum": "Imprègne le combat de la volonté du Haki des Rois. Le lien exact avec Xanda D."
+},
+"Julius C. Zar": {
+"id": "julius-c-zar",
+"fam": "Rois",
+"img": "visuals/cartes-julius-c-zar.webp",
+"status": "Ancienne démo et wiki",
+"sum": "Immobilise des adversaires proches. La description de démo annonce une défense réduite de 15 %."
+},
+"Geng D. Khan": {
+"id": "geng-d-khan",
+"fam": "Rois",
+"img": "visuals/cartes-geng-d-khan.webp",
+"status": "Ancienne démo",
+"sum": "Une fois mis à terre, déclenche une onde qui neutralise les attaquants pendant dix secondes dans l’ancienne description."
+},
+"Nap O. Leon": {
+"id": "nap-o-leon",
+"fam": "Rois",
+"img": "visuals/cartes-nap-o-leon.webp",
+"status": "Ancienne démo",
+"sum": "Le dégainage donne un bonus de vitesse de dix secondes. Le wiki récent recense Napoleon sans décrire son effet."
+},
+"Go D. Zilla": {
+"id": "go-d-zilla",
+"fam": "Rois",
+"img": "visuals/cartes-go-d-zilla.webp",
+"status": "Ancienne démo et wiki",
+"sum": "Étourdissait les cibles, stoppait les modes actifs et imposait un délai global aux actions dans la description de la démo."
+},
+"Hannibal": {
+"id": "hannibal",
+"fam": "Rois",
+"img": "visuals/cartes-hannibal.webp",
+"status": "Nom recensé",
+"sum": "Effet et obtention inconnus."
+},
+"Flash Dash": {
+"id": "flash-dash",
+"fam": "Agile",
+"img": "visuals/cartes-flash-dash.webp",
+"status": "Guide communautaire",
+"sum": "Accélère le dash et permet d’en contrôler la direction."
+},
+"Geppo Master": {
+"id": "geppo-master",
+"fam": "Agile",
+"img": "visuals/cartes-geppo-master.webp",
+"status": "Guide communautaire",
+"sum": "Ajoute deux sauts Geppo dans l’ancienne description."
+},
+"Wall Bouncer": {
+"id": "wall-bouncer",
+"fam": "Agile",
+"img": "visuals/cartes-wall-bouncer.webp",
+"status": "Guide communautaire",
+"sum": "Permet de rebondir sur les murs."
+},
+"Ronaldo Trip": {
+"id": "ronaldo-trip",
+"fam": "Agile",
+"img": "visuals/cartes-ronaldo-trip.webp",
+"status": "Guide communautaire",
+"sum": "Ajoute un tacle glissé pendant un déplacement rapide."
+},
+"Jumper": {
+"id": "jumper",
+"fam": "Agile",
+"img": "visuals/cartes-jumper.webp",
+"status": "Guide communautaire",
+"sum": "Augmente la portée du double saut."
+},
+"Mr Windstep": {
+"id": "mr-windstep",
+"fam": "Agile",
+"img": "visuals/cartes-mr-windstep.webp",
+"status": "Guide communautaire",
+"sum": "Augmente la portée du dash. Le wiki récent emploie aussi Mr Widestep."
+},
+"Sir Pitcher": {
+"id": "sir-pitcher",
+"fam": "Agile",
+"img": "visuals/cartes-sir-pitcher.webp",
+"status": "Guide communautaire",
+"sum": "Permet une poursuite en Geppo Dash après avoir projeté une cible."
+},
+"Strong Tilt": {
+"id": "strong-tilt",
+"fam": "Agile",
+"img": "visuals/cartes-strong-tilt.webp",
+"status": "Guide communautaire",
+"sum": "Le down tilt ouvre une chaîne d’attaques de base sans briser la garde selon l’ancienne description."
+},
+"Alpha Crasher": {
+"id": "alpha-crasher",
+"fam": "Fierce",
+"img": "visuals/cartes-alpha-crasher.webp",
+"status": "Guide communautaire",
+"sum": "Donne l’avantage dans les clashes d’attaques de base selon l’ancien guide."
+},
+"M1 God": {
+"id": "m1-god",
+"fam": "Fierce",
+"img": "visuals/cartes-m1-god.webp",
+"status": "Guide communautaire",
+"sum": "Le dernier M1 ferme la distance puis projette l’adversaire vers le haut."
+},
+"Full Stack": {
+"id": "full-stack",
+"fam": "Fierce",
+"img": "visuals/cartes-full-stack.webp",
+"status": "Guide communautaire",
+"sum": "Une rupture de garde au coup puissant ouvre une chaîne complète."
+},
+"Faster Punch": {
+"id": "faster-punch",
+"fam": "Fierce",
+"img": "visuals/cartes-faster-punch.webp",
+"status": "Guide communautaire",
+"sum": "Accélère les coups puissants et augmente leur portée."
+},
+"Strong Puncher": {
+"id": "strong-puncher",
+"fam": "Fierce",
+"img": "visuals/cartes-strong-puncher.webp",
+"status": "Guide communautaire",
+"sum": "Favorise la rupture de garde et le recul au coup puissant."
+},
+"Down God": {
+"id": "down-god",
+"fam": "Fierce",
+"img": "visuals/cartes-down-god.webp",
+"status": "Guide communautaire",
+"sum": "Augmente la zone touchée par le downslam. Aussi écrit Downg God."
+},
+"James Bond": {
+"id": "james-bond",
+"fam": "Fierce",
+"img": "visuals/cartes-james-bond.webp",
+"status": "Guide communautaire",
+"sum": "Permet aux tirs de punir des dashs dotés d’une fenêtre d’invulnérabilité."
+},
+"Auto Parry": {
+"id": "auto-parry",
+"fam": "Tactic",
+"img": "visuals/cartes-auto-parry.webp",
+"status": "Guide communautaire",
+"sum": "Permet de parer des projectiles en gardant."
+},
+"Parry God": {
+"id": "parry-god",
+"fam": "Tactic",
+"img": "visuals/cartes-parry-god.webp",
+"status": "Guide communautaire",
+"sum": "Modifie la consommation de jauge de parade. L’ancienne formulation ne précise pas l’unité ni la référence de la valeur."
+},
+"Quick Parry": {
+"id": "quick-parry",
+"fam": "Tactic",
+"img": "visuals/cartes-quick-parry.webp",
+"status": "Guide communautaire",
+"sum": "Réduit le temps de récupération après une parade de 0,5 seconde selon l’ancienne description."
+},
+"Evade God": {
+"id": "evade-god",
+"fam": "Tactic",
+"img": "visuals/cartes-evade-god.webp",
+"status": "Guide communautaire",
+"sum": "Modifie la réaction au recul et à l’étourdissement au sol. Détail de déclenchement à vérifier."
+},
+"Parryingan": {
+"id": "parryingan",
+"fam": "Tactic",
+"img": "visuals/cartes-parryingan.webp",
+"status": "Guide communautaire",
+"sum": "Allonge la fenêtre de parade. La valeur 0,2 est citée dans l’ancienne description."
+}
+},
+"fruits": {
+"Dark": {
+"fam": "Logia",
+"img": "visuals/fruits-dark.webp",
+"sum": "Thème associé : obscurité. Les mouvements, dégâts, conditions d’obtention et éventuels éveils demandent une source de gameplay pour ce fruit."
+},
+"Flame": {
+"fam": "Logia",
+"img": "visuals/fruits-flame.webp",
+"sum": "Flame Fist est un projectile de l’arbre Flame. La fiche relève deux passifs, Bigger Impact et Faster Fist, et les nœuds Pyro Laser, Flame Torrent, Py…"
+},
+"Ice": {
+"fam": "Logia",
+"img": "visuals/fruits-ice.webp",
+"sum": "Thème associé : glace. Les mouvements, dégâts, conditions d’obtention et éventuels éveils demandent une source de gameplay pour ce fruit."
+},
+"Light": {
+"fam": "Logia",
+"img": "visuals/fruits-light.webp",
+"sum": "Thème associé : lumière. Les mouvements, dégâts, conditions d’obtention et éventuels éveils demandent une source de gameplay pour ce fruit."
+},
+"Magma": {
+"fam": "Logia",
+"img": "visuals/fruits-magma.webp",
+"sum": "Thème associé : magma. Les mouvements, dégâts, conditions d’obtention et éventuels éveils demandent une source de gameplay pour ce fruit."
+},
+"Rumble": {
+"fam": "Logia",
+"img": "visuals/fruits-rumble.webp",
+"sum": "Thème associé : foudre. Les mouvements, dégâts, conditions d’obtention et éventuels éveils demandent une source de gameplay pour ce fruit."
+},
+"Sand": {
+"fam": "Logia",
+"img": "visuals/fruits-sand.webp",
+"sum": "Thème associé : sable. Les mouvements, dégâts, conditions d’obtention et éventuels éveils demandent une source de gameplay pour ce fruit."
+},
+"Smoke": {
+"fam": "Logia",
+"img": "visuals/fruits-smoke.webp",
+"sum": "Thème associé : fumée. Les mouvements, dégâts, conditions d’obtention et éventuels éveils demandent une source de gameplay pour ce fruit."
+},
+"Barrier": {
+"fam": "Paramecia",
+"img": "visuals/fruits-barrier.webp",
+"sum": "Thème associé : barrières. Les mouvements, dégâts, conditions d’obtention et éventuels éveils demandent une source de gameplay pour ce fruit."
+},
+"Bomb": {
+"fam": "Paramecia",
+"img": "visuals/fruits-bomb.webp",
+"sum": "Thème associé : explosions. Les mouvements, dégâts, conditions d’obtention et éventuels éveils demandent une source de gameplay pour ce fruit."
+},
+"Chop": {
+"fam": "Paramecia",
+"img": "visuals/fruits-chop.webp",
+"sum": "Thème associé : séparation du corps. Les mouvements, dégâts, conditions d’obtention et éventuels éveils demandent une source de gameplay pour ce frui…"
+},
+"Dough": {
+"fam": "Paramecia",
+"img": "visuals/fruits-dough.webp",
+"sum": "Thème associé : pâte extensible. Les mouvements, dégâts, conditions d’obtention et éventuels éveils demandent une source de gameplay pour ce fruit."
+},
+"Gravity": {
+"fam": "Paramecia",
+"img": "visuals/fruits-gravity.webp",
+"sum": "Thème associé : gravité. Les mouvements, dégâts, conditions d’obtention et éventuels éveils demandent une source de gameplay pour ce fruit."
+},
+"Love": {
+"fam": "Paramecia",
+"img": "visuals/fruits-love.webp",
+"sum": "Thème associé : amour et pétrification dans l’inspiration. Les mouvements, dégâts, conditions d’obtention et éventuels éveils demandent une source de…"
+},
+"Operation": {
+"fam": "Paramecia",
+"img": "visuals/fruits-operation.webp",
+"sum": "Thème associé : zone d’opération. Les mouvements, dégâts, conditions d’obtention et éventuels éveils demandent une source de gameplay pour ce fruit."
+},
+"Paw": {
+"fam": "Paramecia",
+"img": "visuals/fruits-paw.webp",
+"sum": "Thème associé : répulsion. Les mouvements, dégâts, conditions d’obtention et éventuels éveils demandent une source de gameplay pour ce fruit."
+},
+"Quake": {
+"fam": "Paramecia",
+"img": "visuals/fruits-quake.webp",
+"sum": "Thème associé : secousses. Les mouvements, dégâts, conditions d’obtention et éventuels éveils demandent une source de gameplay pour ce fruit."
+},
+"Revive": {
+"fam": "Paramecia",
+"img": "visuals/fruits-revive.webp",
+"sum": "Thème associé : résurrection dans l’inspiration. Les mouvements, dégâts, conditions d’obtention et éventuels éveils demandent une source de gameplay…"
+},
+"Rubber": {
+"fam": "Paramecia",
+"img": "visuals/fruits-rubber.webp",
+"sum": "Thème associé : élasticité. Les mouvements, dégâts, conditions d’obtention et éventuels éveils demandent une source de gameplay pour ce fruit."
+},
+"Soul": {
+"fam": "Paramecia",
+"img": "visuals/fruits-soul.webp",
+"sum": "Thème associé : âmes. Les mouvements, dégâts, conditions d’obtention et éventuels éveils demandent une source de gameplay pour ce fruit."
+},
+"String": {
+"fam": "Paramecia",
+"img": "visuals/fruits-string.webp",
+"sum": "Thème associé : fils. Les mouvements, dégâts, conditions d’obtention et éventuels éveils demandent une source de gameplay pour ce fruit."
+},
+"Venom": {
+"fam": "Paramecia",
+"img": "visuals/fruits-venom.webp",
+"sum": "Thème associé : poison. Les mouvements, dégâts, conditions d’obtention et éventuels éveils demandent une source de gameplay pour ce fruit."
+},
+"Allosaurus": {
+"fam": "Zoan",
+"img": "visuals/fruits-allosaurus.webp",
+"sum": "Thème associé : allosaurus. Les mouvements, dégâts, conditions d’obtention et éventuels éveils demandent une source de gameplay pour ce fruit."
+},
+"Bison": {
+"fam": "Zoan",
+"img": "visuals/fruits-bison.webp",
+"sum": "Thème associé : bison. Les mouvements, dégâts, conditions d’obtention et éventuels éveils demandent une source de gameplay pour ce fruit."
+},
+"Falcon": {
+"fam": "Zoan",
+"img": "visuals/fruits-falcon.webp",
+"sum": "Thème associé : faucon. Les mouvements, dégâts, conditions d’obtention et éventuels éveils demandent une source de gameplay pour ce fruit."
+},
+"Giraffe": {
+"fam": "Zoan",
+"img": "visuals/fruits-giraffe.webp",
+"sum": "Thème associé : girafe. Les mouvements, dégâts, conditions d’obtention et éventuels éveils demandent une source de gameplay pour ce fruit."
+},
+"Leopard": {
+"fam": "Zoan",
+"img": "visuals/fruits-leopard.webp",
+"sum": "Thème associé : léopard. Les mouvements, dégâts, conditions d’obtention et éventuels éveils demandent une source de gameplay pour ce fruit."
+},
+"Wolf": {
+"fam": "Zoan",
+"img": "visuals/fruits-wolf.webp",
+"sum": "Thème associé : loup. Les mouvements, dégâts, conditions d’obtention et éventuels éveils demandent une source de gameplay pour ce fruit."
+},
+"Buddha": {
+"fam": "Zoan mythique",
+"img": "visuals/fruits-buddha.webp",
+"sum": "Forme géante dorée de Daibutsu. Les mouvements détaillés, l’obtention et l’éveil restent à documenter."
+},
+"Dragon": {
+"fam": "Zoan mythique",
+"img": "visuals/fruits-dragon.webp",
+"sum": "Thème associé : dragon. Les mouvements, dégâts, conditions d’obtention et éventuels éveils demandent une source de gameplay pour ce fruit."
+},
+"Phoenix": {
+"fam": "Zoan mythique",
+"img": "visuals/fruits-phoenix.webp",
+"sum": "Thème associé : phénix. Les mouvements, dégâts, conditions d’obtention et éventuels éveils demandent une source de gameplay pour ce fruit."
+},
+"Mythical Wolf": {
+"fam": "Zoan mythique",
+"img": "visuals/fruits-mythical-wolf.webp",
+"sum": "Thème associé : loup mythique. Les mouvements, dégâts, conditions d’obtention et éventuels éveils demandent une source de gameplay pour ce fruit."
+}
+}
+}

@@ -34,3 +34,12 @@ python server.py
 ## Builds enregistrés
 
 Le créateur de build stocke les builds dans `data/builds.json` (serveur, ignoré par git). Sans serveur, ils restent dans le navigateur (localStorage). Export et import en JSON disponibles. Il n'y a pas de comptes : tous les visiteurs du même serveur partagent la liste.
+
+## Images et aperçus
+
+- Les illustrations (mers, prisons, factions, races, traits, armes, métiers) et les aperçus animés des fruits et des Haki sont des **dessins générés**, pas des captures de jeu. Pour les régénérer : `python tools/make_art.py` (écrit dans `dist/visuals/art/`).
+- `dist/summaries.json` (résumés des cartes et des fruits pour le créateur) a été extrait de `codex.html` ; à refaire si les fiches changent.
+- Couches ajoutées : `atlas-plus.css` (menu, responsive), `atlas-components.css` (cartes, filtres, créateur), `menu.js`, `enhance.js`, `builder-ui.js` (tuiles et sélecteur visuel), `builder-smart.js` (objectifs, profil des stats, menus déroulants).
+
+- `dist/visuals/wiki/` : images des armes (27) et des 10 races téléchargées depuis rellseaswiki.com (captures du jeu relevées par le wiki communautaire). Les armes sans image sur le wiki gardent une icône dessinée.
+- `dist/acces.html` est généré par `python tools/make_acces.py` à partir de textes déjà présents sur le site.
